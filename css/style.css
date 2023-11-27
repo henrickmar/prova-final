@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+header{
+    width: 100%;
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    height: 20%;
+    background-color: #a95900;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: large;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #a95900;
+    color: white; 
+    font-weight: 300;   
+}
+footer section{
+    display: flex;
+    padding: 20px;
+}
+footer section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+main section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+main section article{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+button{
+    width: 120px;
+    height: 60px;
+    background-color: #9b5635;
+    border: none;
+    font-weight: bold;
+    font-size:medium;
+    color: white;  
+}
+main h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight:lighter;
+}
+main a{
+    align-self: center;
+    padding-top: 50px;
+}
+.esquerda{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.direita{
+    width: 50%;
+    align-self: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 130px;
+    height: 110px;
+}
+.doLado{
+    height: 200px;
+    width: 250px;
+    align-self: center;
+}
+.espaco{
+    padding: 20px;
+}
+@media screen and (max-width: 640px) {
+header{
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.logo{
+    width: 75px;
+    height: 70px;
+}
+    }

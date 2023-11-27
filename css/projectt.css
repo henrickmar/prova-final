@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 20%;
+    background-color: #a95900;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: large;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 20px;
+}
+main p{
+    text-align: center;
+}
+main section{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main section article{
+    padding: 20px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #a95900;
+    color: white; 
+    font-weight: 300;   
+}
+footer section{
+    display: flex;
+    padding: 20px;
+}
+footer section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.esquerda{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.direita{
+    width: 50%;
+    align-self: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 130px;
+    height: 110px;
+}
+.proj{
+    width: 300px;
+    height: 250px;
+}
