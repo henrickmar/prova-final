@@ -64,6 +64,7 @@ footer {
     font-weight: 300;   
 }
 footer section{
+    width: 100%;
     display: flex;
     padding: 20px;
 }
@@ -97,20 +98,30 @@ footer section article{
     box-shadow: 5px 5px 5px 5px gray;
 }
 @media screen and (max-width: 640px) {
-header{
-    display: flex;
-    height: 20%;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-header ul{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.logo{
-    width: 75px;
-    height: 70px;
-}
-}
+    header{
+        display: flex;
+        height: 20%;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    main section{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    main section article{
+        padding-bottom: 20px;
+    }
+    .logo{
+        width: 75px;
+        height: 70px;
+    }
+    }
     
