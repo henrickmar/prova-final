@@ -108,6 +108,28 @@ main a{
 .espaco{
     padding: 20px;
 }
+
+/* inicio slide */
+
+.carrosel{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.slider{
+    max-width: 300px;
+    height: 270px;
+    display: none;
+}
+
+.slides > .firstImage{
+    display: block;
+}
+
+/* final slide */
+
+
 @media screen and (max-width: 640px) {
     header{
         display: flex;
@@ -133,8 +155,17 @@ main a{
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .item article  h1{
+        display: flex;
+        justify-content: center;
+    }
     .logo{
         width: 75px;
         height: 70px;
     }
+    }
+
+    .direita{
+        text-align: center;
     }
