@@ -118,6 +118,10 @@ footer section article{
         display: flex;
         flex-direction: column;
     }
+    main section article img{
+        width: 250px;
+        height: 200px;
+    }
     main section article{
         padding-bottom: 20px;
     }
