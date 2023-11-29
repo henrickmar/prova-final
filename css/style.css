@@ -64,6 +64,9 @@ main section article{
     padding: 20px;
     width: 50%;
 }
+main section article p{
+    font-size: 20px;
+}
 button{
     width: 120px;
     height: 60px;
@@ -94,8 +97,8 @@ main a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo{
-    width: 130px;
-    height: 110px;
+    width: 100px;
+    height: 80px;
 }
 .doLado{
     height: 200px;
