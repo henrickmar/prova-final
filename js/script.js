@@ -14,7 +14,7 @@ function removerImagem(){
 function proximaImagem(){
     cont++;
     
-    if(cont > 2){
+    if(cont > 3){
         cont = 1;
     }
     
